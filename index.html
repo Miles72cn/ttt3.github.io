@@ -1,147 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>Python Programming by Example</title>
-		<meta name="generator" content="DocBook XSL Stylesheets V1.79.2"/>
-		        <style>
-        			/* 设置页面基本样式 */
-        			body {
-            				margin: 0;
-            				padding: 0;
-            				display: flex;
-            				justify-content: center;
-            				align-items: center;
-            				background-color: #f0f0f0;
-            				font-family: "Georgia", "楷体", "KaiTi", serif;
-        				}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>德语口语练习</title>
+<style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:20px;background:#f5f5f5}
+    .row{display:flex;gap:10px;align-items:center;margin-bottom:15px}
+    label{min-width:120px}
+    textarea{flex:1;min-height:40px}
+    button{min-width:80px;padding:6px 10px}
+    #midLeft,#midRight{white-space:nowrap}
+</style>
+</head>
+<body>
 
-        			/* 设置div样式 */
-        			.center-div {
-            				width: 80%; /* 设置div的宽度 */
-            				max-width: 800px; /* 最大宽度 */
-            				padding: 20px;
-            				background-color: #ffffff;
-            				border: 1px solid #cccccc;
-            				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            				text-align: left; /* 文本居左 */
-            				font-size: 30pt; /* 字体大小 */
-					font-family: "Georgia", "楷体", "KaiTi", serif;
-        				}
-    			</style>
-	</head>
-	<body>
-		<div class="center-div">
-<p>&Uuml;ber Dubrassna br&uuml;tete der Sommerhimmel.</p>
+<!-- 第一排 -->
+<div class="row">
+    <textarea id="topLabel" readonly></textarea>
+    <button id="btnToggle">显示</button>
+    <button id="btnRandom">随机</button>
+</div>
 
-<p>&nbsp; </p>
+<!-- 第二排 -->
+<div class="row">
+    <textarea id="midLeft" readonly></textarea>
+    <label id="midMid"></label>
+    <label id="midRight"></label>
+</div>
 
-<p>Dubrassna steht auf keiner noch so guten Karte &hellip; es ist ein Dorf am Dnjepr, &ouml;stlich von Orscha, und selbst die Me&szlig;tischbl&auml;tter der Generalst&auml;be verzeichnen es als ein trostloses, &uuml;ber die Ebene verstreutes Nest von neun H&uuml;tten, zwei Ziehbrunnen, einer Banja, einem Kolchosenstall und einer Traktorstation f&uuml;r die noch trostloseren D&ouml;rfer im Umkreis von 50 Kilometern.</p>
+<!-- 第三排 -->
+<div class="row">
+    <button id="btnPlus10">+ 10</button>
+    <button id="btnPlus3">+ 3</button>
+    <button id="btnReduce">降低</button>
+    <button id="btnSort">排序</button>
+    <button id="btnExit">退出</button>
+</div>
 
-<p>&nbsp; </p>
-
-<p>Hauptfeldwebel Kunze hatte bei der Besichtigung von Dubrassna gesagt: &raquo;Det &uuml;bertrifft meine k&uuml;hnsten Tr&auml;ume!&laquo; Er sprach damit aus, was die ganze 5. Kompanie dachte, als sie m&uuml;de und von Orscha anmarschierend, staubbedeckt und am Ende der Kr&auml;fte, mit verquollenen Augen und hechelndem Atem an dem ersten Ziehbrunnen stand und auf das Kommando: &raquo;Weggetreten in die Quartiere!&laquo; verbl&uuml;fft und hilflos um sich sah.</p>
-
-<p>&nbsp; </p>
-
-<p>&raquo;16 Uhr&laquo;, sagte Kunze und sah dabei seinen Ia-Schreiber an. Er sagte 16 Uhr, nachdem er einmal bei einer &Uuml;bung in der Wahner Heide nach dem Befehl: &raquo;Um 4 Uhr antreten&laquo; seine Kompanie um 4 Uhr fr&uuml;h weckte. Die Verwirrung, die dadurch entstand, geh&ouml;rte zu den unliebsamsten Erinnerungen Kunzes und f&uuml;hrte dazu, dass er laufend Instruktionsstunden abhielt: Wie nennt ein Soldat die richtige Uhrzeit?</p>
-
-<p>&nbsp; </p>
-
-<p>&raquo;Noch keine Meldungen vom Bataillon?&laquo;</p>
-
-<p>&nbsp; </p>
-
-<p>&raquo;Nein, Herr Hauptfeld.&laquo; Der Ia-Schreiber nahm im Sitzen Haltung an. Kunze nickte befriedigt. Auch im Krieg die Manneszucht hochhalten --- das war einer seiner Wahlspr&uuml;che. Fr&uuml;her mussten die schlappen S&auml;cke bei einer Antwort hochschnellen und strammstehen, aber das hatte Oberleutnant Faber in einer seiner menschlichen Anwandlungen verboten. Kunze, hatte er gesagt, wir sind im Krieg! An der Front. In Ru&szlig;land! Umgeben von Partisanen \ldots{} vor uns einige hundert Divisionen, neben und hinter uns ein Feind, der keine Gnade kennt und aus dem Dunkeln zuschl&auml;gt \ldots{} Und da stehen Sie hier und machen Kasernenhofdrill. Wohl verr&uuml;ckt geworden, was?</p>
-
-<p>&nbsp; </p>
-
-<p>Antwort hochschnellen und strammstehen, aber das hatte Oberleutnant Faber in einer seiner menschlichen Anwandlungen verboten. Kunze, hatte er gesagt, wir sind im Krieg! An der Front. In Russland! Umgeben von Partisanen \ldots{} vor uns einige hundert Divisionen, neben und hinter uns ein Feind, der keine Gnade kennt und aus dem Dunkeln zuschl&auml;gt \ldots{} Und da stehen Sie hier und machen Kasernenhofdrill. Wohl verr&uuml;ckt geworden, was?</p>
-
-<p>>&nbsp; </p>
-
-<p>Hauptfeldwebel Kunze hatte sich das gemerkt. Weniger den Anschiss als die Tatsache, dass sie von Feinden umgeben waren. Er schlief mit einer Maschinenpistole neben sich auf dem Kopfkissen, raste bei n&auml;chtlichen Ger&auml;uschen aus der H&uuml;tte und warf sich hinter einem Holzstapel in Deckung und beschoss in einer Neumondnacht sogar Oberleutnant Faber und die Essentr&auml;gerkolonne, die von der HKL\footnote{HKL, \ \ \ \ \ \ Hauptkampflinie, 前线阵地；} zur&uuml;ckkamen und durch die Dunkelheit klapperten.</p>
-
-<p>&nbsp; </p>
-
-<p>Kunze sah mi&szlig;billigend auf das Feldtelefon, das die 5. Kompanie mit dem Bataillon verband. Vor sich hatte er eine Liste liegen, die ihn sehr besch&auml;ftigte. Eine Urlaubsliste, auf der zwei Namen standen, deren Tr&auml;ger nach den Berechnungen Kunzes schon im Anmarsch sein mussten.</p>
-
-<p>&nbsp; </p>
-
-<p>Fritz Leskau, Unteroffizier. 14 Tage Heimaturlaub.</p>
-
-<p>&nbsp; </p>
-
-<p>Theo Strakuweit. Obergefreiter. 2 Monate Anschlu&szlig;urlaub wegen Gelbsucht.</p>
-
-<p>&nbsp;</p>
-<p>&nbsp;===================================================</p>
-<p>&nbsp;</p>
-<p>&Uuml;ber Dubrassna br&uuml;tete der Sommerhimmel.</p>
-<p>在杜布拉斯纳上空，夏天的天空弥漫着。</p>
-
-<p>&nbsp; </p>
-
-<p>Dubrassna steht auf keiner noch so guten Karte &hellip; es ist ein Dorf am Dnjepr, &ouml;stlich von Orscha, und selbst die Me&szlig;tischbl&auml;tter der Generalst&auml;be verzeichnen es als ein trostloses, &uuml;ber die Ebene verstreutes Nest von neun H&uuml;tten, zwei Ziehbrunnen, einer Banja, einem Kolchosenstall und einer Traktorstation f&uuml;r die noch trostloseren D&ouml;rfer im Umkreis von 50 Kilometern.</p>
-<p>杜布拉斯纳在任何一张再好的地图上都找不到&hellip;&hellip;这是一个位于第聂伯河畔的小村庄，位于奥尔沙以东，甚至连总参谋部的地形图也把它标记为一个荒凉的地方：平原上散布着九间小屋、两个辘轳井、一间桑拿房、一个集体农庄的牲畜棚和一个为方圆50公里内更荒凉的村庄服务的拖拉机站。</p>
-
-<p>&nbsp; </p>
-
-<p>Hauptfeldwebel Kunze hatte bei der Besichtigung von Dubrassna gesagt: &raquo;Det &uuml;bertrifft meine k&uuml;hnsten Tr&auml;ume!&laquo; Er sprach damit aus, was die ganze 5. Kompanie dachte, als sie m&uuml;de und von Orscha anmarschierend, staubbedeckt und am Ende der Kr&auml;fte, mit verquollenen Augen und hechelndem Atem an dem ersten Ziehbrunnen stand und auf das Kommando: &raquo;Weggetreten in die Quartiere!&laquo; verbl&uuml;fft und hilflos um sich sah.</p>
-<p>Kunze准尉在视察Dubrassna时说：&ldquo;这超出了我最狂野的梦想！&rdquo;他表达了整个第5连的感受，当他们疲惫不堪地从Orscha行军而来，满身灰尘，筋疲力尽，眼睛肿胀，喘着粗气，站在第一个汲水井旁，在听到&ldquo;解散回宿舍！&rdquo;的命令时，茫然无措地四处张望。</p>
-
-<p>&nbsp; </p>
-
-<p>&raquo;16 Uhr&laquo;, sagte Kunze und sah dabei seinen Ia-Schreiber an. Er sagte 16 Uhr, nachdem er einmal bei einer &Uuml;bung in der Wahner Heide nach dem Befehl: &raquo;Um 4 Uhr antreten&laquo; seine Kompanie um 4 Uhr fr&uuml;h weckte. Die Verwirrung, die dadurch entstand, geh&ouml;rte zu den unliebsamsten Erinnerungen Kunzes und f&uuml;hrte dazu, dass er laufend Instruktionsstunden abhielt: Wie nennt ein Soldat die richtige Uhrzeit?</p>
-<p>&ldquo;16点，&rdquo;Kunze说，同时看着他的第一书记官。在一次瓦纳尔荒地的演习中，Kunze在听到&ldquo;4点集合&rdquo;的命令后，于凌晨4点叫醒了他的连队。由此产生的混乱成为Kunze最不愉快的回忆之一，并导致他不断举办训练课：一个士兵如何正确报时？</p>
-
-<p>&nbsp; </p>
-
-<p>&raquo;Noch keine Meldungen vom Bataillon?&laquo;</p>
-<p>``还没有来自营部的报告吗？"</p>
-		
-<p>&nbsp; </p>
-
-<p>&raquo;Nein, Herr Hauptfeld.&laquo; Der Ia-Schreiber nahm im Sitzen Haltung an. Kunze nickte befriedigt. Auch im Krieg die Manneszucht hochhalten --- das war einer seiner Wahlspr&uuml;che. Fr&uuml;her mussten die schlappen S&auml;cke bei einer Antwort hochschnellen und strammstehen, aber das hatte Oberleutnant Faber in einer seiner menschlichen Anwandlungen verboten. Kunze, hatte er gesagt, wir sind im Krieg! An der Front. In Ru&szlig;land! Umgeben von Partisanen \ldots{} vor uns einige hundert Divisionen, neben und hinter uns ein Feind, der keine Gnade kennt und aus dem Dunkeln zuschl&auml;gt \ldots{} Und da stehen Sie hier und machen Kasernenhofdrill. Wohl verr&uuml;ckt geworden, was?</p>
-<p>``没有，准尉先生。" 第一书记官坐着时立正回答。Kunze满意地点了点头。即使在战争中保持军纪 --- 这是他的座右铭之一。以前，回答时懒散的士兵必须迅速站起来，站得笔直，但这被中尉Faber在他的一次人性化举动中禁止了。他曾对Kunze说，我们在打仗！在前线。在俄罗斯！被游击队包围\ldots{}\ldots{}前面有几百个师，左右和后面都是毫不留情、从黑暗中出击的敌人\ldots{}\ldots{}而你在这里进行操场训练。你疯了吗？</p>
-
-<p>&nbsp; </p>
-
-<p>Antwort hochschnellen und strammstehen, aber das hatte Oberleutnant Faber in einer seiner menschlichen Anwandlungen verboten. Kunze, hatte er gesagt, wir sind im Krieg! An der Front. In Russland! Umgeben von Partisanen \ldots{} vor uns einige hundert Divisionen, neben und hinter uns ein Feind, der keine Gnade kennt und aus dem Dunkeln zuschl&auml;gt \ldots{} Und da stehen Sie hier und machen Kasernenhofdrill. Wohl verr&uuml;ckt geworden, was?</p>
-<p>作为回应，费伯中尉出于人类的本能禁止了这一点。昆泽，他说过，我们正处于战争之中！在前面。在俄罗斯！被游击队包围 \ldots{}\ldots{} 我们前面有几百个师，我们旁边和后面都是毫不留情、从黑暗中袭击的敌人 \ldots{}\ldots{} 而你就站在这里进行营房操练。你可能已经疯了，不是吗？</p>
-
-<p>&nbsp; </p>
-
-<p>Hauptfeldwebel Kunze hatte sich das gemerkt. Weniger den Anschiss als die Tatsache, dass sie von Feinden umgeben waren. Er schlief mit einer Maschinenpistole neben sich auf dem Kopfkissen, raste bei n&auml;chtlichen Ger&auml;uschen aus der H&uuml;tte und warf sich hinter einem Holzstapel in Deckung und beschoss in einer Neumondnacht sogar Oberleutnant Faber und die Essentr&auml;gerkolonne, die von der HKL\footnote{HKL, \ \ \ \ \ \ Hauptkampflinie, 前线阵地；} zur&uuml;ckkamen und durch die Dunkelheit klapperten.</p>
-<p>昆策军士长记住了这一点。与其说是记住了那次训斥，不如说是记住了他们被敌人包围的事实。他睡觉时枕头旁边放着一支冲锋枪，夜里听到声响就会冲出小屋，躲在一堆木柴后面寻求掩护。在一个新月之夜，他甚至向法贝尔中尉和从前线阵地返回的送餐队开了火，他们正在黑暗中发出咔嗒声。</p>
-		
-<p>&nbsp; </p>
-
-<p>Kunze sah mi&szlig;billigend auf das Feldtelefon, das die 5. Kompanie mit dem Bataillon verband. Vor sich hatte er eine Liste liegen, die ihn sehr besch&auml;ftigte. Eine Urlaubsliste, auf der zwei Namen standen, deren Tr&auml;ger nach den Berechnungen Kunzes schon im Anmarsch sein mussten.</p>
-<p>昆泽不以为然地看着连接第五连和营的野战电话。他面前有一张让他非常忙碌的清单。一份假期名单上有两个名字，根据昆泽的计算，他们肯定已经在路上了。</p>
-		
-<p>&nbsp; </p>
-
-<p>Fritz Leskau, Unteroffizier. 14 Tage Heimaturlaub.</p>
-<p>弗里茨&middot;莱斯考，士官，14天探亲假。</p>
-		
-<p>&nbsp; </p>
-
-<p>Theo Strakuweit. Obergefreiter. 2 Monate Anschlu&szlig;urlaub wegen Gelbsucht.</p>
-<p>西奥&middot;斯特拉库维特，下士，因黄疸休假2个月。</p>
-		
-<p>&nbsp; </p>
-
-<p>&raquo;Hat zuviel gefressen, der Kerl!&laquo; schrie Kunze, als nach einer Woche &Uuml;berf&auml;lligkeit von Strakuweits Urlaub die Meldung durchkam, dass der Obergefreite erkrankt sei und f&uuml;r 2 Monate in der Heimat bliebe. &raquo;2 Monate!&laquo; tobte Kunze. &raquo;Da geht der Sauhund auf Urlaub, fri&szlig;t sich dick, bis die Galle platzt und h&ouml;ckert jetzt 2 Monate in der Heimat herum, w&auml;hrend wir hier von Feinden umgeben sind und unser Leben einsetzen!&laquo; Er warf sich in die etwas verfettete Brust und sah um sich. Der Ia-Schreiber sah ihn pflichtschuldig mit heroischem Blick an. &raquo;Ich werde dem Strakuweit zeigen, was es hei&szlig;t, den Endsieg sabotieren! Lass ihn nur erst wieder hier sein!&laquo;</p>
-<p>&ldquo;这家伙吃得太多了！&rdquo;当施特拉库维特的休假已经过了一周，却收到下士生病并且需要在家休息两个月的消息时，昆泽大声喊道。 &ldquo;两个月！&rdquo;昆泽怒吼道。 &ldquo;这混蛋去度假了，吃得肚子胀气，现在在家里闲坐了两个月，而我们却被敌人包围，冒着生命危险！&rdquo;他扑通一声趴在有些肥大的胸膛上，环顾四周。伊阿抄写员尽职尽责地用英雄的目光看着他。 &raquo;我要让施特拉库维特知道，破坏最后的胜利意味着什么！让他先回来吧！&laquo;</p>
-		
-<p>&nbsp; </p>
-
-<p>Nun war es soweit. Kunzes Tagesarbeit war es gewesen, sich durch Rundgespr&auml;che, die bis nach Orscha zur Division liefen, danach zu erkundigen, wie lange man heute mit einem Urlauberzug von K&ouml;nigsberg bis Orscha braucht. Das rechnerische Ergebnis war, dass Leskau und Strakuweit auf der Achse sein mussten und sich in H&ouml;he von Borrisow befanden.</p>
-<p>现在时机已到。昆策的一天工作就是通过一系列电话，打到奥尔沙的师部，询问今天从柯尼斯堡到奥尔沙的休假士兵列车需要多长时间。计算的结果是，莱斯考和施特拉库韦特必定已经在路上，并且应该到了鲍里索夫附近。</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>	
-		</div>	
-	</body>
+<script src="app.js"></script>
+</body>
 </html>
